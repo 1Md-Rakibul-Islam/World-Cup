@@ -7,4 +7,55 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(214, 184, 222);
+}
+
+.container{
+    margin: 80px 100px;
+}
+
+.header {
+    background-color: rgb(22, 28, 37);
+    border-radius: 30px;
+    color: beige;
+    padding: 80px 80px 0 80px;
+}
+
+.header_contents {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__content__box {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.heater-title {
+    font-size: 60px;
+        
+}
+    
+.header-decription {
+    opacity: 0.9;
+    font-size: 18px;
+    margin: 65px 0px;
+}
+    
+.header-buton {
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 16px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: yellow;
+
+}
+
+.header__banner img{
+    width: 100%;
 }
