@@ -123,7 +123,7 @@ body{
     color: black;
 }
 
-.nav-link:active {
+.nav__area ul li:active {
     background-color: blueviolet;
     color: yellow;
 }
@@ -139,6 +139,12 @@ body{
     width: 100%;
     border-radius: 10px;
     box-shadow: 0px 0px 9px 1px #00000066;
+    transform: translateX(5);
+    box-shadow: 0px 0px 10px blueviolet;
+}
+
+.blog:hover {
+    transform: translateY(-2px);
 }
 
 .blog img{
@@ -199,6 +205,12 @@ footer {
     color: beige;text-align: center;
 }
 
+.footer__title {
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+
 .footer__contents {
     /* display: grid;
     grid-template-columns: repeat(7, 1fr); */
@@ -210,6 +222,7 @@ footer {
 
 .footer__content{
     width: 150px;
+    margin-bottom: 30px;
 }
 
 .footer__content a{
@@ -218,6 +231,21 @@ footer {
 }
 
 
+footer hr {
+    width: 80vw;
+    background-color: rgba(157, 157, 157, 0.42);
+    margin: 35px 0;
+
+}
+
+.socal__media{
+    font-size: 2rem;
+}
+
+.socal__icon {
+    margin-right: 35px;
+    color: blueviolet;
+}
 
 /*  =======================
        footer area end
