@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
-    font-family: 'Roboto', sans-serif;
-}
 /*  =================
        common style
     ================= */
-/* html{
-    width: 1400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 2px solid blue;
-} */
 
 body{
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     background-color: snow;
@@ -22,8 +13,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid blue;
-    box-sizing: border-box;
 }
 
 main{
@@ -55,22 +44,21 @@ main{
 }
 
 .header__content__box {
-    width: 40px;
+    width: 50vw;
     display: flex;
     justify-content: space-evenly;
 }
 
 
 .heater-title {
-    font-size: 3.9rem;
+    font-size: 3rem;
     margin-top: 0px;
-        
 }
     
 .header-decription {
     opacity: 0.9;
-    font-size: 1.2rem;
-    margin: 65px 0px;
+    font-size: 1.1rem;
+    margin: 60px 0px;
 }
     
 .header-buton {
@@ -78,20 +66,12 @@ main{
     background-color: blueviolet;
     padding: 16px 30px;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 20px;
     color: yellow;
     margin-bottom: 100px;
     display: inline-block;
-
 }
 
-/* .header__banner{
-    background-image: url('/assets/images/Banner_Image.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    background-origin: border-box;
-} */
 
 .header__banner img{
     width: 100%;
@@ -112,7 +92,7 @@ main{
 }
 
 .nav__area {
-    width: 220px;
+    width: 200px;
     height: 220px;
     background-color: rgb(22, 28, 37);
     padding: 20px;
@@ -162,7 +142,7 @@ main{
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
     margin-left: 20px;
 }
 
@@ -204,10 +184,6 @@ main{
     font-size: 1.2rem;
 }
 
-.blog__icon img{
-    width: 100%;
-
-}
 
 .blog__icon {
     display: flex;
@@ -243,8 +219,6 @@ footer {
 
 
 .footer__contents {
-    /* display: grid;
-    grid-template-columns: repeat(7, 1fr); */
     display: flex;
     align-items: center;
     justify-content: space-between;
