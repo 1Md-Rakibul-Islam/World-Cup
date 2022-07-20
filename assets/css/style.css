@@ -3,7 +3,9 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-
+/*  =================
+       common style
+    ================= */
 body{
     padding: 0;
     margin: 0;
@@ -13,6 +15,11 @@ body{
 .container{
     margin: 80px 100px;
 }
+
+
+/*  =======================
+       header area start
+    ======================= */
 
 .header {
     background-color: rgb(22, 28, 37);
@@ -59,3 +66,38 @@ body{
 .header__banner img{
     width: 100%;
 }
+/*  =======================
+       header area end
+    ======================= */
+
+
+/*  =======================
+       match area start
+    ======================= */
+
+.match__contents {
+    display: flex;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/*  =======================
+       match area end
+    ======================= */
+
+
+
+/*  =======================
+       footer area start
+    ======================= */
+
+
+
+
+/*  =======================
+       footer area end
+    ======================= */
