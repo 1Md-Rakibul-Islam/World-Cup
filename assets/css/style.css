@@ -3,6 +3,11 @@
 /*  =================
        common style
     ================= */
+html{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -87,10 +92,9 @@ main{
 
 .match__contents {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
+    justify-content: space-around;
 }
-
 .nav__area {
     width: 200px;
     height: 220px;
