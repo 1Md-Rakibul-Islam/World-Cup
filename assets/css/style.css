@@ -3,12 +3,8 @@
 /*  =================
        common style
     ================= */
-html{
-    display: flex;
-    flex-wrap: nowrap;
-}
 
-
+    
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
